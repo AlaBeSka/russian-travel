@@ -5,3 +5,17 @@
   align-items: center;
   max-width: 1080px;
 }
+
+@media screen and (max-width: 896px) {
+  .places {
+    row-gap: 73px;
+    padding: 0 24px;
+  }
+}
+
+@media screen and (max-width: 544px) {
+  .places {
+    row-gap: 50px;
+    padding: 0;
+  }
+}
